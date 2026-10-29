@@ -1,6 +1,6 @@
 # App Store Connect and the asc CLI
 
-Commands and clicks that worked for Unposed and Bundle in October 2026, with asc 5.7.
+Commands and clicks that worked in October 2026, with asc 5.7.
 
 ## Reading state
 
@@ -72,7 +72,7 @@ These were done in Chrome while signed in to App Store Connect and developer.app
   Pick the Organization that owns the app (the default may be another team with no apps), type the app name and click the suggestion, set Platform to iOS, Send.
   There are two Platform selects in the page and only the second one shows, so set the visible one.
   It asks for no reason.
-  The answer appears on the page at once, for example "We'll expedite review for Unposed: Guest Camera."
+  The answer appears on the page at once, for example "We'll expedite review for <app name>."
 - A status question goes through developer.apple.com/contact (App Review, App Review Status, Email) and gets a case ID.
 
 ## Things that looked wrong but were not

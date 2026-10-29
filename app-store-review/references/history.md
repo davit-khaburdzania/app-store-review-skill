@@ -3,7 +3,7 @@
 Newest last.
 Add every new message from Apple here, with what fixed it, so the next submission starts from it.
 
-## Bundle 1.0
+## App A 1.0 (subscriptions, AI features)
 
 Submitted 2026-10-08 with build 12 and both subscriptions.
 
@@ -20,13 +20,13 @@ The reviewer could not find summaries, questions, Ask or topics.
 They had tapped "Not now" on "Use AI on your articles?", and with AI off those features disappeared.
 The server logs showed it: no AI request arrived during the review.
 Fix: a reply with numbered steps (how to turn AI on, then where each feature is) and one annotated screenshot, and a resubmit on 2026-10-22.
-Product fix for 1.0.1 (TestFlight 19, commit 8e52f30): with AI off, the summary and quick check cards say "AI is off" with Turn on AI, and Ask asks first.
+Product fix for 1.0.1: with AI off, the summary and quick check cards say "AI is off" with Turn on AI, and Ask asks first.
 Lesson: a reviewer takes the privacy-safe choice, so a feature hidden behind a "no" looks missing.
 
 A second expedite on 2026-10-25 was accepted.
 Still Waiting for Review on 2026-10-29.
 
-## Unposed 1.0
+## App B 1.0 (consumable purchases, App Clip)
 
 Submitted 2026-10-09 with build 21 and six consumable purchases.
 
@@ -45,10 +45,10 @@ An expedite request on 2026-10-25 was accepted at once, and the review came the 
 - Guideline 2.3.6, age rating: the app shows alcohol (wine glasses in the art and in sample photos).
   Fix: "Alcohol, Tobacco, or Drug Use or References" set to Frequent.
 - Guideline 4, Sign in with Apple: a new account that signed in from the welcome screen went on to "Whose wedding is it?", and Continue stayed off until a name was typed, which reads as asking for the user's name.
-  Fix (commit 3fe0577): the names are optional in onboarding and in New event, and an event with no names takes its type's name, "Our wedding".
+  Fix: the names are optional in onboarding and in New event, and an event with no names takes its type's name, "Our wedding".
 
 Found while checking the same iPad before resubmitting: the window's close, minimise and resize buttons covered every back button and the logo, so Back could not be tapped.
-Fix (commit 62e1d22): every presentation gets extra top safe area for those buttons.
+Fix: every presentation gets extra top safe area for those buttons.
 
 Build 25 with both fixes, the reply, and a resubmit on 2026-10-26.
 The App Store Connect app tile kept the old icon afterwards, while build 25 itself had the new one.
